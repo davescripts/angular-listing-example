@@ -1,3 +1,15 @@
-<p>
-  quotes works!
-</p>
+<h2>Quotes</h2>
+
+<table>
+   <tr *ngFor="let quote of quotes">
+     <td>
+       <div [innerHTML]="quote.content"></div>
+       <div><em><strong>{{quote.author}}</strong></em></div>
+       <br/>
+     </td>
+  </tr>
+</table>
+<br/>
+ 
+<div><em>Quotes retrieved with <a href="https://angular.io" target="_blank">Angular</a></em></div>
+

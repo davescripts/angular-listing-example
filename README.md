@@ -1,27 +1,39 @@
-# AngularQuotes
+# Angular Listing Example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Angular example that retrieves records from a remote url, and displays them on a listing.
 
-## Development server
+The [remote url](https://raw.githubusercontent.com/davescripts/test-data/master/quotes.json) returns the records in **json** format.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+More details can be found [here](https://davescripts.com/angular-listing-example).
 
-## Code scaffolding
+## Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Node.js and NPM.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Git clone this repository.
 
-## Running unit tests
+```sh
+git clone https://github.com/davescripts/angular-listing-example.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the **npm install** command on the root folder of the project.
 
-## Running end-to-end tests
+```sh
+cd angular-listing-example
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Run
 
-## Further help
+```sh
+ng serve --open
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Live Demo
+
+Live demo at [StackBlitz](https://stackblitz.com/edit/davescripts-angular-listing-example).
+
+## License
+This project is licensed under the MIT license.
